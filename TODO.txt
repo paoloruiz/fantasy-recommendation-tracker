@@ -1,0 +1,5 @@
+Next steps
+1. Create a provider to call the api used for data.js and create a pre-loading/loading mechanism
+  for when you run out of items
+
+2. Allow saving to local storage of all the choices you've made
