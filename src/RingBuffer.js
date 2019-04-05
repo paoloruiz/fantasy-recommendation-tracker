@@ -17,4 +17,10 @@ export default class {
     this.RING_BUFFER[this.currentIndex] = null;
     return item;
   }
+
+  flush() {
+    for (let i = 0; i < this.RING_SIZE; i++) {
+      this.RING_BUFFER[i] = null;
+    }
+  }
 }
